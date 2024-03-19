@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wyniki formularza</title>
+    </head>
+    <body>
+        {% block content %}
+        <h1>Dziękujemy za wypełnienie formularza!</h1>
+        <p>Twoje imię: {{ name }}</p>
+        <p>Twój Email: {{ email }}</p>
+        <p>Twój adres: {{ address }}</p>
+        <p>Przyjedziemy do ciebie w dniu: {{ date }}</p>
+        <p>18 lat: {{ check }}</p>
+        {% endblock %}
+    </body>
+</html>
