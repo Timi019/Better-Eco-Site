@@ -63,7 +63,7 @@ def submit_form():
         data.write(f"email: {email}\n")
         data.write(f"is person 18 years old: {check}\n")
         data.write(f"where he or she lives: {address}\n")
-        data.write(f"when not go to him: {date}\n")
+        data.write(f"when he or she was born: {date}\n")
     # Możesz zapisać swoje dane lub wysłać je e-mailem
     return render_template('form_result.html', 
                            # Umieść tutaj zmienne
