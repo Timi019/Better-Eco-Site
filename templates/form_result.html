@@ -8,11 +8,11 @@
     </head>
     <body>
         {% block content %}
-        <h1>Dziękujemy za wypełnienie formularza!</h1>
+        <h1><s>Dziękujemy za udostępnienie danych!</s> Dziękujemy za wypełnienie formularza!</h1>
         <p>Twoje imię: {{ name }}</p>
         <p>Twój Email: {{ email }}</p>
         <p>Twój adres: {{ address }}</p>
-        <p>Przyjedziemy do ciebie w dniu: {{ date }}</p>
+        <p>Twoja data urodzenia: {{ date }}</p>
         <p>18 lat: {{ check }}</p>
         {% endblock %}
     </body>
